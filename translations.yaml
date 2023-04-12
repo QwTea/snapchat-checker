@@ -1,0 +1,14 @@
+ru:
+  welcome_message: "Добро пожаловать! С помощью меня ты можешь узнать есть ли почта в сервисах snapchat или bitmoji. Просто отправь мне почту:"
+  no_mail: "Почта не найдена"
+  mail_found_in: "Почта найдена в сервисе"
+  limits_exceeded: "Превышен лимит запросов. Попробуйте позже или используйте прокси с помощью параметра --proxy"
+  proxy_type_error: "Неверный тип прокси. Доступные типы: http, https, socks5"
+  any_error: "Произошла ошибка. Возможно вы неверно указали proxy параметр."
+en:
+  welcome_message: "Welcome! I can help you to find out if email is registered in snapchat or bitmoji. Just send me an email:"
+  no_mail: "Email not found"
+  mail_found_in: "Email found in"
+  limits_exceeded: "Limits exceeded. Try again later or use proxy with --proxy parameter"
+  proxy_type_error: "Invalid proxy type. Available types: http, https, socks5"
+  any_error: "An error occurred. Maybe you entered an invalid proxy parameter."
