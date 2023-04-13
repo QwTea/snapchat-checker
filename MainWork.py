@@ -36,6 +36,8 @@ class CheckEmail:
             return information
         except requests.exceptions.ConnectionError:
             print(self.language['any_error'])
+        except requests.exceptions.JSONDecodeError:
+            pass
     @staticmethod
     def create_message(json_data):
         match json_data:
