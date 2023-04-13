@@ -29,6 +29,6 @@ if information_about_email == 'snapchat':
 elif information_about_email == 'bitmoji':
     print(f"{choose_language['mail_found_in']} {information_about_email}")
 elif information_about_email is None:
-    print(choose_language['mail_not_found'])
+    print(choose_language['no_mail'])
 else:
     print(choose_language['limits_exceeded'])
